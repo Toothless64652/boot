@@ -1,0 +1,526 @@
+aside {
+    background: #1212c4, rgba(0, 0, 0, 0.336),  black, rgb(187, 181, 181);
+    color: white, rgb(187, 181, 181), #ebc105, black ;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    color: white;
+    background: rgba(0, 0, 0);
+}
+
+.fixed-position {
+    width: 100%;
+    height: 50PX;
+    position: fixed;
+    top: 0;
+    background: rgb(0, 0, 0);
+    right: 0;
+}
+
+.nav-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 100px;
+}
+
+.nav-text {
+    font-size: 15px;
+    font-family: monospace;
+    font-weight: 600;
+}
+
+.trigram {
+    display: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100px;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    color: rgb(187, 181, 181);
+}
+
+li {
+    padding: 10px;
+}
+
+.nav-list .nav-ul .main-li {
+    padding: 15px 10px;
+    font-size: 12px;
+    position: relative;
+}
+
+.nav-list .nav-ul .main-li:hover a {
+    color:white;
+}
+
+.nav-list .nav-ul li a {
+    text-decoration: none;
+    color: rgb(187, 181, 181);
+}
+
+.nav-list .dropdown {
+    display: none;
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: max-content;
+}
+
+.nav-list ul .main-li:hover .dropdown {
+    color: rgb(0, 0, 0);
+    background: rgba(187, 181, 181);
+    display: block ;
+}
+.nav-list .nav-ul .dropdown ul li:hover a {
+    color: rgb(0, 0, 0);
+    background: rgba(187, 181, 181, 0.4);
+    display: block ;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50px;
+    width: 100%;
+}
+ 
+.development {
+    padding: 50px 100px 0;
+    width: 100%;
+    height: 400PX;
+}
+
+.dev-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    font-family: sans-serif;
+    font-size: 14.5px;
+}
+
+.dev-text {
+    width: 45%;
+}
+
+.span {
+    color: #ebc105;
+}
+
+.dev-img {
+    width: 55%;
+    height: 100%;
+}
+
+.dev-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
+
+.dev-text button {
+    padding: 10px;
+    background: #0635ce;
+    color: white;
+    font-size: 12px;
+}
+
+.newsletter {
+    width: 100%;
+    background: #0635ce;
+    padding: 30px 100px;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.news-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2em;    
+}
+
+.news-container h2 {
+    width: 40%;
+}
+
+.news-container .sign {
+    width: 60%;
+}
+
+.news-container input {
+    padding: 10px;
+    font-size: 12px;
+    border: none;
+    border-radius: 3px;
+}
+
+.news-container input[type="text"] {
+    width: 85%;
+}
+.news-container input[type="button"] {
+    background: rgb(0, 0, 0);
+    position: absolute;
+    color: white;
+}
+
+.box1 {
+    background: white;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    text-align: center;
+    font-size: 13px;
+}
+
+.box1 img {
+    width: 40px;
+    height: 40px;
+}
+
+.bg-dark {
+    line-height: 1.5;
+    padding: 15px;
+    background: rgb(0, 0, 0);
+}
+
+.bg-gray {
+    line-height: 1.5;
+    padding: 15px;
+    background: rgb(187, 181, 181);
+}
+
+.bg-dark button {
+    font-size: 11px;
+    padding: 5px;
+    background: #0635ce;
+    color: white;
+}
+
+.bg-gray button {
+    font-size: 11px;
+    padding: 5px;
+    background: rgb(0, 0, 0);
+    color: white;
+}
+
+.fundam {
+    background: white;
+    color: black;
+    padding: 40px 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+.fund-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.fund-container img {
+    width: 50%;
+}
+
+.fund-container .fund-text .first_p {
+    font-size: 13px;
+}
+
+.fund-container p {
+    font-size: 11px;
+}
+
+.fund-text button {
+    border: none;
+    padding: 5px;
+    background: rgba(187, 181, 181, 0.2);
+}
+.react {
+    padding: 40px 100px;
+    font-size: 15px;
+    font-family: sans-serif;
+    height: auto;
+}
+
+.react-container {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+
+.react-container img {
+    width: 50%;
+    height: 400px;
+}
+
+.react-text {
+    width: 50%;
+}
+
+.react-container .react-text .first_p {
+    font-size: 13px;
+}
+
+.react-container p {
+    font-size: 11px;
+}
+
+.react-text button {
+    border: none;
+    padding: 5px;
+    background: white;
+}
+
+.asked {
+    padding: 40px 100px;
+    width: 100%;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.asked h1 {
+    text-align: center;
+}
+
+.asked .display {
+    padding: 15px 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.asked .items:hover .display {
+    border: 1px solid rgb(94, 139, 238);
+    color: rgb(94, 139, 238);
+    background: rgba(94, 139, 238, 0.3);
+}
+
+.p {
+    display: none;
+    padding: 0 15px;
+}
+
+.topright {
+    float: right;
+    cursor: pointer;
+    font-size: 28px;
+}
+
+.topright:hover {color: red;}
+
+.instructors {
+    width: 100%;
+    padding: 40px 100px;
+    background: #0635ce;
+    line-height: 1;
+}
+
+.instruct-container {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.box2 {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.flex-items {
+    padding: 8px 15px;
+    background: white;
+    color: rgb(0, 0, 0);
+}
+
+.flex-items p {
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-items img {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+}
+
+.icons img {
+    width: 10px;
+    height: 10px;
+    background: rgb(0, 0, 0);
+    margin-right: 3px;
+}
+
+.contact {
+    padding: 40px 100px;
+    width: 100%;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    font-size: 14px;
+    height: 300px;
+    overflow: hidden;
+}
+
+.contact-info {
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact-form {
+    width: 50%;
+}
+
+.map {
+    padding: 10px 0;
+    display: flex;
+}
+
+.request {
+    width: 50%;
+    height: 100%;
+}
+
+.request img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.copy {
+    padding: 40px 100px;
+    text-align: center;
+}
+
+
+@media all and (max-width:992px) {
+
+}
+@media all and (max-width:768px) {
+    body {
+        font-size: 14px;
+    }
+    
+    .nav-list:hover {
+        border: solid rgb(187, 181, 181);
+    }
+    
+    .nav-list {
+        border-radius: 5px;
+        padding: 0px 10px;
+        border: 2px;
+    }   
+
+    .trigram {
+        display: contents;
+        font-size: 15px;
+        font-style: normal;
+    }
+
+    .nav-ul {
+        display: none;
+        background-color: rgba(0, 0, 0, 1);
+
+    }
+
+    .nav-container {
+        position: relative;
+    }
+
+    .nav-list:hover .nav-ul {
+        position: absolute;
+        width: 100%;
+        left:0;
+        top:35px ;
+        display: block;
+    }
+
+    .nav-list .dropdown {
+        position: relative;
+        top: 0;
+    }
+    
+    .contact-info, .contact-form, .request {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .box1, .box2 {
+        padding: 50px;
+        flex-direction: column;
+    }
+    
+    .contact {
+        height: auto;
+    }
+
+    .request img {
+        height: 200px;
+        object-fit: fill;
+    }
+}
+@media all and (max-width:600px) {    
+    body, .dev-container, .nav-text {
+        font-size: small;
+    }
+
+    .nav-container {
+        padding: 10px ;
+    }
+
+    .development {
+        padding: 50px 50px 20px;
+        text-align: center;
+        font-size: 14px;
+    }
+    
+    .dev-text, .react-text {
+        width: 100%;
+    }
+
+    .dev-img {
+        display: none;
+    }
+
+    .newsletter, .react, .fundam, .asked, .instructors, .contact {
+        padding: 50px;
+    }
+
+    .fund-container img, .react-container img, .newsletter h2, .newsletter .sign {
+        width: 100%;
+    }   
+    
+    .news-container, .fund-container, .react-container {
+        flex-direction: column;
+    } 
+
+
+}
+
